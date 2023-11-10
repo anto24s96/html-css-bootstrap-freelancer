@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content_header{
+    background-color: yellowgreen;
+    height: 70px;
+}
+
+.content_jumbotron{
+    background-color: lightgray;
+    height: 500px;
+}
+
+.bg_green{
+    background-color: #1ABC9C;
+}
+
+.content_portofolio_title{
+    background-color: gray;
+    height: 120px;
+}
+
+.content_portfolio{
+    height: 300px;
+    background-color: yellowgreen;
+}
+
+.about_title{
+    background-color: gray;
+    height: 120px;
+}
+
+.about_text{
+    background-color: orange;
+    height: 250px;
+}
+
+.about_download_button{
+    background-color: goldenrod;
+    height: 50px;
+}
+
+.content_contact_me{
+    background-color: yellowgreen;
+    height: 400px;
+}
+
+.bg_footer_up{
+    background-color: #3A546D;
+}
+
+.content_location{
+    height: 100px;
+    background-color: purple;
+}
+
+.content_around_the_web{
+    height: 100px;
+    background-color: orange;
+}
+
+.content_freelancer{
+    height: 100px;
+    background-color: yellow;
+}
+
+.content_copyright{
+    height: 60px;
+    background-color: yellowgreen;
+}
+
+.bg_oil{
+    background-color: #2C3E50;
+}
