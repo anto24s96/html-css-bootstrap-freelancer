@@ -2,15 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.content_header{
-    background-color: yellowgreen;
-    height: 70px;
+    font-family: sans-serif;
 }
 
-.content_jumbotron{
-    background-color: lightgray;
-    height: 400px;
+/* STRUCTURE */
+.content_header{
+    height: 50px;
 }
 
 .bg_green{
@@ -73,4 +70,71 @@
 
 .bg_oil{
     background-color: #2C3E50;
+}
+
+/* HEADER */
+#hamburger{
+    color: #767e86;
+    border: 2px solid #b0b2b5;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: block;
+}
+
+/* JUMBO */
+.content_jumbotron img{
+    width: 100%;
+}
+
+#avatar{
+    width: 250px;
+}
+
+#jumbo_title{
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+#star{
+    font-size: 30px;
+    color: white;
+    width: 70%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#star:before, #star:after{
+    content: "";
+    display: inline-block;
+    width: 25%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 5px solid;
+    border-radius: 10px;
+}
+
+#star:after{
+    margin: 0 -55% 0 .5em;
+}
+
+.jumbo-list ul li{
+    list-style-type: none;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px){
+    .header-list span{
+        margin-left: 15px;
+    } 
+    
+    #jumbo_title{
+        font-size: 60px;
+    }
+
+    .jumbo-list ul li{
+        font-size: 25px;
+    }
+
+
 }
